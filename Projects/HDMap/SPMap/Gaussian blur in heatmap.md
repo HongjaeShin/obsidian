@@ -1,0 +1,5 @@
+#### CenterNet in CenterPoint paper
+> During training, CenterNet learns to predict heatmaps with rendered Gaussian kernels at each annotated object center qi for each class ci ∈ {1 . . . K}, and regress to object size S at the center of the annotated bounding box. To make up for quantization errors introduced by the striding of the backbone architecture, CenterNet also regresses to a local offset Oˆ. At test time, the detector produces K heatmaps and dense class-agnostic regression maps. Each local maxima (peak) in the heatmaps corresponds to an object, with confidence proportional to the heatmap value at the peak.
+
+#### Center heatmap head 
+> This head produces a K-channel heatmap Yˆ , one channel for each of K classes. During training, it targets a 2D Gaussian produced by the projection of 3D centers of annotated bounding boxes into the map-view.
