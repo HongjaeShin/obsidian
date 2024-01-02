@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"f65d2456603254d9","type":"group","x":480,"y":-180,"width":520,"height":400,"label":"Node detection"},
+		{"id":"a0e7da3316163080","type":"text","text":"###### Image backbone\n- ResNet50\n- EfficientNet-B0\n- SwinTR","x":-300,"y":-80,"width":240,"height":200},
+		{"id":"dbd959c665b9fc3a","type":"text","text":"###### Node selection\n- Box 바깥의 node는 제거\n- Node가 없는 box는 제거","x":1120,"y":-69,"width":351,"height":178},
+		{"id":"9c332aef979958df","type":"text","text":"###### HeatMap\n- BEV feature에서 heatmap-centric하게 node detection","x":500,"y":-165,"width":480,"height":160},
+		{"id":"fb1a22fef35f699f","type":"text","text":"###### Box detector\n- Query-centric하게 line detection\n","x":500,"y":45,"width":480,"height":160},
+		{"id":"de7392064dbdb297","type":"text","text":"PivotNet의 방법으로 대체할 수 있을 것 같긴 한데 우리의 target idea가 필요하면 추가하고 필요 없으면 쳐내자 같은 느낌인거 같아 지금의 방향이 더 나을 것 같기도","x":685,"y":300,"width":384,"height":119},
+		{"id":"46d1e64a4f969dce","type":"file","file":"Areas/PaperReview/HDMap/PivotNet.md","x":411,"y":500,"width":658,"height":360},
+		{"id":"75353c85701e992b","type":"text","text":"###### FlowNet\n- 선발된 node feature를 기준으로 다음 node를 예측하는 network\n- 반복을 통해 없던 node가 생겨날 수도 있고 제거될 수도 있음\n\n- node들이 iter하면서 축적되서 무거워지는 문제가 있었음","x":1560,"y":-96,"width":563,"height":234},
+		{"id":"e4cbf8930ce2cf33","type":"text","text":"###### Refine module\n무언가 결과를 refine할 수 있는 모듈이 있으면 좋을거 같음","x":2180,"y":-61,"width":497,"height":165},
+		{"id":"ec7693b9df39ec49","type":"text","text":"###### BEV encoder\n- GKT\n- BEVPool\n\t- Depth supervision을 이용한 BEV 성능 향상\n- SparseBEV\n\t- Object centric한 방법으로 빠른 속도","x":0,"y":-112,"width":431,"height":265},
+		{"id":"471f8fd710dbb6ff","x":-140,"y":-740,"width":417,"height":541,"type":"text","text":"###### SparseBEV\n- Box와 node를 구분하여야 함\n- Head를 box, node, cls로 구분해서 추가한다면 sampling될 때 어떻게 될지 모름?\n\t- 이게 맞는 말인지 sampling code 뜯어서 확인할 것\n\n###### StreamPETR\n-  이거 써보고 싶은데 왜 환경 세팅이 안되는지 확인해볼 것"}
+	],
+	"edges":[
+		{"id":"07ed5ab62a79ee22","fromNode":"a0e7da3316163080","fromSide":"right","toNode":"ec7693b9df39ec49","toSide":"left"},
+		{"id":"4ead88fce882ea90","fromNode":"ec7693b9df39ec49","fromSide":"right","toNode":"9c332aef979958df","toSide":"left"},
+		{"id":"9fa452768227225b","fromNode":"ec7693b9df39ec49","fromSide":"right","toNode":"fb1a22fef35f699f","toSide":"left"},
+		{"id":"fbd68cfba7901d8d","fromNode":"9c332aef979958df","fromSide":"right","toNode":"dbd959c665b9fc3a","toSide":"left"},
+		{"id":"e74cbd13c807955a","fromNode":"fb1a22fef35f699f","fromSide":"right","toNode":"dbd959c665b9fc3a","toSide":"left"},
+		{"id":"2467d7294a9cb2ce","fromNode":"dbd959c665b9fc3a","fromSide":"right","toNode":"75353c85701e992b","toSide":"left"},
+		{"id":"8a6ee005d3d878e7","fromNode":"f65d2456603254d9","fromSide":"bottom","toNode":"de7392064dbdb297","toSide":"top"},
+		{"id":"2da1a834595314cd","fromNode":"de7392064dbdb297","fromSide":"bottom","toNode":"46d1e64a4f969dce","toSide":"top"},
+		{"id":"dcea2f4981341f65","fromNode":"75353c85701e992b","fromSide":"right","toNode":"e4cbf8930ce2cf33","toSide":"left"},
+		{"id":"2650ecb7c824bef3","fromNode":"ec7693b9df39ec49","fromSide":"top","toNode":"471f8fd710dbb6ff","toSide":"bottom"}
+	]
+}
