@@ -11,4 +11,3 @@
 	1. embed_dim + 3으로 concat하고 conv 두 번
 	2. BEV feat에 더해줌
 	3. BEV feat에 더하고 linear
-	
