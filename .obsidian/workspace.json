@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Areas/PaperReview/Image segmentation/Mask2Former.md",
+                "file": "Projects/HDMap/Meeting/20240111.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Areas/PaperReview/Image segmentation/Mask2Former.md",
+                "file": "Projects/HDMap/Meeting/20240111.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Areas/PaperReview/Image segmentation/Mask2Former.md",
+                "file": "Projects/HDMap/Meeting/20240111.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Areas/PaperReview/Image segmentation/Mask2Former.md"
+                "file": "Projects/HDMap/Meeting/20240111.md"
               }
             }
           }
@@ -156,10 +156,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7f938aa71a121f53",
+  "active": "c446ac79baaace22",
   "lastOpenFiles": [
-    "Areas/PaperReview/3D object detection/DN-DETR.md",
     "Areas/PaperReview/Image segmentation/Mask2Former.md",
+    "Areas/PaperReview/3D object detection/DN-DETR.md",
     "Areas/PaperReview/Image segmentation",
     "Projects/HDMap/PapersSimpleReview/TODO/VectorMapNet.md",
     "Projects/HDMap/PapersSimpleReview/TODO/StreamMapNet.md",
