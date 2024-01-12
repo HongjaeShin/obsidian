@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/HDMap/Meeting/20240111.md",
+                "file": "Areas/PaperReview/Image segmentation/Mask2Former.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/HDMap/Meeting/20240111.md",
+                "file": "Areas/PaperReview/Image segmentation/Mask2Former.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/HDMap/Meeting/20240111.md",
+                "file": "Areas/PaperReview/Image segmentation/Mask2Former.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/HDMap/Meeting/20240111.md"
+                "file": "Areas/PaperReview/Image segmentation/Mask2Former.md"
               }
             }
           }
@@ -157,10 +156,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c446ac79baaace22",
+  "active": "7f938aa71a121f53",
   "lastOpenFiles": [
-    "Projects/HDMap/Meeting/20240102.md",
+    "Areas/PaperReview/3D object detection/DN-DETR.md",
+    "Areas/PaperReview/Image segmentation/Mask2Former.md",
+    "Areas/PaperReview/Image segmentation",
+    "Projects/HDMap/PapersSimpleReview/TODO/VectorMapNet.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/StreamMapNet.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/SOLOFusion.md",
+    "Projects/HDMap/PapersSimpleReview/Done/PivotNet.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/MapTRv2.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/BeMapNet.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/InsightMapper.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/HDMapNet.md",
+    "Projects/HDMap/PapersSimpleReview/Done/GeMap.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/MapTR.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/InstaGraM.md",
+    "Projects/HDMap/PapersSimpleReview/TODO",
+    "Projects/HDMap/PapersSimpleReview/Done",
     "Projects/HDMap/Meeting/20240111.md",
+    "Projects/HDMap/Meeting/20240102.md",
     "Projects/HDMap/CodeReview/maptrv2_nusc_r50_24ep_v12_phase.md",
     "Projects/HDMap/CodeReview"
   ]

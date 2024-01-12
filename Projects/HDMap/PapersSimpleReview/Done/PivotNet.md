@@ -19,7 +19,7 @@
 2. BEV feature decoder
 	- Figure에 semantic BEV query라고 있는거 보면 transformer 기반 BEV encoder사용한 것 같음 #TODO (뭔진 코드 나와봐야 알듯)
 3. Line-aware point decoder
-	- [[Projects/HDMap/PapersSimpleReview/InsightMapper]]의 query에 각 instance들을 MLP해서 Line feature(instance feature)를 만들고 이를 이용하여 해당 line을 instance segmentation하여 얻은 mask로 mask cross attention
+	- [[Projects/HDMap/PapersSimpleReview/TODO/InsightMapper]]의 query에 각 instance들을 MLP해서 Line feature(instance feature)를 만들고 이를 이용하여 해당 line을 instance segmentation하여 얻은 mask로 mask cross attention
 4. Pivotal point predictor
 
 #TODO pivotal point predictor와 제안된 문제를 어떻게 해결했는지 설명 추가할 것
