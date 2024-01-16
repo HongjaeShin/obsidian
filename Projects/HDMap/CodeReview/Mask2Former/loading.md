@@ -13,4 +13,5 @@ input image size : $1024\times1024$
 - Input feat shape: $[[bs, 2048, 32, 32], [bs, 1024, 64, 64], [bs, 512, 128, 128], [bs, 256, 256, 256]]$
 	- 위에 작성한 순서로 입력하는데 input_convs를 이용해서 channel을 feat_channel(256)으로 맞춰줌
 - memory : multi scale img feat
+- mask_feature의 shape이 제일 큼 $[bs, 256, 256, 256]$
 - 
