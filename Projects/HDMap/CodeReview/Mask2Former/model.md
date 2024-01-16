@@ -11,8 +11,8 @@ input image size : $1024\times1024$
 	- Query를 LayerNorm하고 $[bs, query\_num,channel]$
 	- MLP 이용해서 Query로 mask_embed 만들고 mask_embed와 mask_feature를 곱함
 		- mask_pred인데 transformer decoder에서 mask attention할 때 사용할 mask로 만들기 위해 이전에 만든 ms feat의 shape에 맞게 interpolate해줌
-		- flatten하고 형태 맞춰준 후 
-		- /
+		- flatten하고 형태 맞춰준 후 *attn_mask.sigmoid() < 0.5* 해줌
+
 ### msdeformattn_pixel_decoder.py
 #### MSDoeformAttnPixelDecoder
 - Input feat shape: $[[bs, 2048, 32, 32], [bs, 1024, 64, 64], [bs, 512, 128, 128], [bs, 256, 256, 256]]$
