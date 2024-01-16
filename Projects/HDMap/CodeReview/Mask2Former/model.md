@@ -14,6 +14,9 @@ input image size : $1024\times1024$
 		- flatten하고 형태 맞춰준 후 *attn_mask.sigmoid() < 0.5* 해줌
 - fowrad_head는 처음에 transformer decoder 이전에 실행되고 transformer layer가 끝날 때마다 cross attn에 사용될 ms feat의 shape에 맞는 mask를 생성하기 위해 실행됨
 
+#### \_get_target_single
+- 12544
+
 #### loss
 
 ### msdeformattn_pixel_decoder.py
