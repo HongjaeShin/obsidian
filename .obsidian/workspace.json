@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d2f1c64f15eda356",
+        "id": "dae1e3413bd6196b",
         "type": "tabs",
         "children": [
           {
-            "id": "c446ac79baaace22",
+            "id": "5debba4bfb3b091a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/HDMap/Meeting/20240111.md",
+                "file": "Projects/HDMap/CodeReview/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,12 +73,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b7bdedbe8b581863",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/HDMap/Meeting/20240111.md",
+                "file": "Projects/HDMap/CodeReview/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/HDMap/Meeting/20240111.md",
+                "file": "Projects/HDMap/CodeReview/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/HDMap/Meeting/20240111.md"
+                "file": "Projects/HDMap/CodeReview/Untitled.md"
               }
             }
           }
@@ -157,8 +157,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c446ac79baaace22",
+  "active": "5debba4bfb3b091a",
   "lastOpenFiles": [
+    "Projects/HDMap/CodeReview/Untitled.md",
+    "Projects/HDMap/Meeting/20240111.md",
     "Areas/PaperReview/Image segmentation/Mask2Former.md",
     "Areas/PaperReview/3D object detection/DN-DETR.md",
     "Areas/PaperReview/Image segmentation",
@@ -175,7 +177,6 @@
     "Projects/HDMap/PapersSimpleReview/TODO/InstaGraM.md",
     "Projects/HDMap/PapersSimpleReview/TODO",
     "Projects/HDMap/PapersSimpleReview/Done",
-    "Projects/HDMap/Meeting/20240111.md",
     "Projects/HDMap/Meeting/20240102.md",
     "Projects/HDMap/CodeReview/maptrv2_nusc_r50_24ep_v12_phase.md",
     "Projects/HDMap/CodeReview"
