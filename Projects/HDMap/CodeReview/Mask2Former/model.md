@@ -7,7 +7,9 @@ input image size : $1024\times1024$
 
 ### mask2former_head.py
 #### Mask2FormerHead
-- d
+- ##### forward_head
+	- Query LayerNorm하고 $[bs, query\_num,channel]$
+	- 
 ### msdeformattn_pixel_decoder.py
 #### MSDoeformAttnPixelDecoder
 - Input feat shape: $[[bs, 2048, 32, 32], [bs, 1024, 64, 64], [bs, 512, 128, 128], [bs, 256, 256, 256]]$
