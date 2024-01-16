@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/HDMap/CodeReview/Mask2Former/loading.md",
+                "file": "Projects/HDMap/CodeReview/Mask2Former/model.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b7bdedbe8b581863",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/HDMap/CodeReview/Mask2Former/loading.md",
+                "file": "Projects/HDMap/CodeReview/Mask2Former/model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/HDMap/CodeReview/Mask2Former/loading.md",
+                "file": "Projects/HDMap/CodeReview/Mask2Former/model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/HDMap/CodeReview/Mask2Former/loading.md"
+                "file": "Projects/HDMap/CodeReview/Mask2Former/model.md"
               }
             }
           }
@@ -157,12 +156,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5debba4bfb3b091a",
+  "active": "7f938aa71a121f53",
   "lastOpenFiles": [
     "Spaces/Home",
     "Spaces",
     "Projects/HDMap/CodeReview/Mask2Former",
-    "Projects/HDMap/CodeReview/Mask2Former/loading.md",
+    "Projects/HDMap/CodeReview/Mask2Former/model.md",
     "Projects/HDMap/Meeting/20240111.md",
     "Areas/PaperReview/Image segmentation/Mask2Former.md",
     "Areas/PaperReview/3D object detection/DN-DETR.md",
