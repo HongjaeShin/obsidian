@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/HDMap/CodeReview/Mask2Former.md",
+                "file": "Projects/HDMap/SPMap/Init query with mask2former.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/HDMap/CodeReview/Mask2Former.md",
+                "file": "Projects/HDMap/SPMap/Init query with mask2former.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/HDMap/CodeReview/Mask2Former.md",
+                "file": "Projects/HDMap/SPMap/Init query with mask2former.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/HDMap/CodeReview/Mask2Former.md"
+                "file": "Projects/HDMap/SPMap/Init query with mask2former.md"
               }
             }
           }
@@ -158,11 +158,11 @@
   },
   "active": "96a4821fd57dae3d",
   "lastOpenFiles": [
+    "Projects/HDMap/CodeReview/Mask2Former.md",
     "Projects/HDMap/CodeReview/maptrv2_nusc_r50_24ep_v12_phase.md",
     "conflict-files-obsidian-git.md",
     "Projects/HDMap/CodeReview/Mask2Former/model.md",
     "Projects/HDMap/SPMap/Init query with mask2former.md",
-    "Projects/HDMap/CodeReview/Mask2Former.md",
     "Spaces/Home",
     "Spaces",
     "Projects/HDMap/CodeReview/Mask2Former",
