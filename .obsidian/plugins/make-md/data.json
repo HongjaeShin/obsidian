@@ -14,7 +14,7 @@
   "editorFlow": true,
   "internalLinkClickFlow": true,
   "contextEnabled": true,
-  "spaceViewEnabled": true,
+  "spaceViewEnabled": false,
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
