@@ -11,8 +11,12 @@
             "id": "9d78d241277c185d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Projects/HDMap/CodeReview/Mask2Former/model.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -69,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/HDMap/CodeReview/maptrv2_nusc_r50_24ep_v12_phase.md",
+                "file": "Projects/HDMap/CodeReview/Mask2Former/model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/HDMap/CodeReview/maptrv2_nusc_r50_24ep_v12_phase.md",
+                "file": "Projects/HDMap/CodeReview/Mask2Former/model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/HDMap/CodeReview/maptrv2_nusc_r50_24ep_v12_phase.md"
+                "file": "Projects/HDMap/CodeReview/Mask2Former/model.md"
               }
             }
           }
@@ -153,7 +156,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "37db3ec31264de1f",
+  "active": "9d78d241277c185d",
   "lastOpenFiles": [
     "Projects/HDMap/CodeReview/Mask2Former/loading.md",
     "Projects/HDMap/CodeReview/Mask2Former",
