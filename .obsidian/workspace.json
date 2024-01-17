@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "dae1e3413bd6196b",
+        "id": "12aa5c62225322f1",
         "type": "tabs",
         "children": [
           {
-            "id": "5debba4bfb3b091a",
+            "id": "9d78d241277c185d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/HDMap/CodeReview/Mask2Former/model.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -73,7 +69,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -93,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/HDMap/CodeReview/Mask2Former/model.md",
+                "file": "Projects/HDMap/CodeReview/maptrv2_nusc_r50_24ep_v12_phase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/HDMap/CodeReview/Mask2Former/model.md",
+                "file": "Projects/HDMap/CodeReview/maptrv2_nusc_r50_24ep_v12_phase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/HDMap/CodeReview/Mask2Former/model.md"
+                "file": "Projects/HDMap/CodeReview/maptrv2_nusc_r50_24ep_v12_phase.md"
               }
             }
           }
@@ -156,12 +153,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7f938aa71a121f53",
+  "active": "37db3ec31264de1f",
   "lastOpenFiles": [
-    "Spaces/Home",
-    "Spaces",
+    "Projects/HDMap/CodeReview/Mask2Former/loading.md",
     "Projects/HDMap/CodeReview/Mask2Former",
-    "Projects/HDMap/CodeReview/Mask2Former/model.md",
     "Projects/HDMap/Meeting/20240111.md",
     "Areas/PaperReview/Image segmentation/Mask2Former.md",
     "Areas/PaperReview/3D object detection/DN-DETR.md",
