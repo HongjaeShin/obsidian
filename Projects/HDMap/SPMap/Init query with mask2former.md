@@ -8,6 +8,6 @@
 - [ ] 기존에 사용하던 aux bev seg가 필요할까?
 	- 중요한 부분은 아닐듯 함
 - [ ] pts와 segm의 gt assign을 동일하게 해줘야할까?
+- [ ] segm으로 assign
 - [ ] one2many 2 이상 가능하게
 - [ ] with_cp
-- [ ] 
