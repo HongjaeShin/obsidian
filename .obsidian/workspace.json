@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "28d2bf7e4f932976",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/HDMap/SPMap/Init query with mask2former.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/HDMap/SPMap/Init query with mask2former.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/HDMap/SPMap/Init query with mask2former.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -157,9 +170,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8f66e658a94f4578",
+  "active": "28d2bf7e4f932976",
   "lastOpenFiles": [
     "Projects/HDMap/SPMap/Init query with mask2former.md",
+    "conflict-files-obsidian-git.md",
     "Projects/HDMap/CodeReview/Mask2Former.md",
     "Projects/HDMap/CodeReview/maptrv2_nusc_r50_24ep_v12_phase.md",
     "Projects/HDMap/CodeReview/Mask2Former/loading.md",
