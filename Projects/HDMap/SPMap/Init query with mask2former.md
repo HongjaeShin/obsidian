@@ -1,6 +1,13 @@
-변경한 파일
-- maptr/dense_heads/maptrv2_head_mask
-- maptr/modules/transformer
-- maptr/assigners/mask_hungarian_assigner
-- maptr/losses/map_loss
-- dataset/nuscenes_offlinemap_dataset
+### TODO
+- [x] BEV encoder 단순화
+	- ResNet18 -> double conv 몇 개로 이루어진 간단한 encoder로 변형
+	- [ ] Mask 형태를 바꾸면서 수렴이 빨라진건지 encoder의 단순화로 빨라진건지 확인
+- [x] Mask 형태 [50,25] -> [200, 100]
+	- [ ] 둘의 성능 차이도 확인해보기
+- [ ] Decoder layer 수 변경해보기
+- [ ] 기존에 사용하던 aux bev seg가 필요할까?
+	- 중요한 부분은 아닐듯 함
+- [ ] pts와 segm의 gt assign을 동일하게 해줘야할까?
+- [ ] segm으로 assign
+- [ ] one2many 2 이상 가능하게
+- [ ] with_cp
