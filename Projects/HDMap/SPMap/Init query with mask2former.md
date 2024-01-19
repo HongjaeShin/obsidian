@@ -24,3 +24,4 @@
 	- 중간에 끊긴 했는데 추세가 별로 안좋아보임
 - v3: v2에 BEV encoder를 다시 resnet18로 사용
 - v4: v2에 pts, segm 따로 assign
+	- segm_loss weight을 낮춰야할 것 같음
