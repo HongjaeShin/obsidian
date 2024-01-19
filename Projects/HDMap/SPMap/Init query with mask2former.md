@@ -11,3 +11,8 @@
 - [ ] segm으로 assign
 - [ ] one2many 2 이상 가능하게
 - [ ] with_cp
+
+- v2: v1에서 segm loss weight을 mask2former만큼 올렸음. v1에서는 1/5해서 사용
+	- [ ] overfit에서는 v1의 pts loss가 더 작게 나왔는데 이를 1/7set에서 확인해볼 것
+- v3: v2에 BEV encoder를 다시 resnet18로 사용
+- v4: v2에 pts, segm 따로 assign
