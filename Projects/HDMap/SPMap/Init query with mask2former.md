@@ -11,6 +11,7 @@
 		- segm으로 assign하고 permutation으로 어떻게 할지 고민
 	- [x] pts와 segm의 gt assign을 각각
 - [ ] Multi scale을 channel-wise로 concat해서 사용
+- [ ] denoising
 #### 안급한거
 - [ ] one2many 2 이상 가능하게
 - [ ] with_cp
