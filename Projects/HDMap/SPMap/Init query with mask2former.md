@@ -21,27 +21,27 @@
 
 - Variation
 
-| version | small segm loss weight | BEV encoder |     Assign     | Performance    |
-|:-------:|:----------------------:|:-----------:|:--------------:| --- |
-|    1    |          1/5           | SimpleConv  | same pts layer |     |
-|    2    |           1            | SimpleConv  | same pts layer |     |
-|    3    |           1            |  ResNet18   | same pts layer |     |
-|    4    | 1                       | SimpleConv            | pts, segm assign dependently               |     |
-|    5    | 1                       | CustomResNet            | same pts layer               |     |
-|    6    | 1                       | CustomResNet            | pts, segm assign dependentlyy               |     |
-|    7    | 1/2                       | CustomResNet            | same pts layer               |     |
-|    8    | 1/2                       |             |                |     |
-|    9    |                        |             |                |     |
-|   10    |                        |             |                |     |
-|   11    |                        |             |                |     |
-|   12    |                        |             |                |     |
-|   13    |                        |             |                |     |
-|   14    |                        |             |                |     |
-|   15    |                        |             |                |     |
-|   16    |                        |             |                |     |
-|   17    |                        |             |                |     |
-|   18    |                        |             |                |     |
-|   19    |                        |             |                |     |
-|   20    |                        |             |                |     |
-|   21    |                        |             |                |     |
-|   22    |                        |             |                |     |
+| version | num_layers | segm_loss_weight | BEV encoder  | BEVseg |        Assign         | Performance |
+|:-------:|:----------:|:----------------:|:------------:|:------:|:---------------------:| ----------- |
+|    1    |     9      |       1/5        |  SimpleConv  |        |         same          |             |
+|    2    |     9      |        1         |  SimpleConv  |        |         same          |             |
+|    3    |     9      |        1         |   ResNet18   |        |         same          |             |
+|    4    |     9      |        1         |  SimpleConv  |        | pts, segm dependently |             |
+|    5    |     9      |        1         | CustomResNet |        |         same          |             |
+|    6    |     9      |        1         | CustomResNet |        | pts, segm dependently |             |
+|    7    |     9      |       1/2        | CustomResNet |        |         same          |             |
+|    8    |     9      |       1/2        | CustomResNet |   x    |         same          |             |
+|    9    |     9      |        1         | CustomResNet |   x    |         same          |             |
+|   10    |     6      | 1                 | SimpleConv             |        | same                      |             |
+|   11    | 6           | 1/2                 | CustomResNet             |        | same                      |             |
+|   12    | 9           | don't use loss_segm                 | CustomResNet             |        | same                      |             |
+|   13    | 9           | only use l                 |              |        |                       |             |
+|   14    |            |                  |              |        |                       |             |
+|   15    |            |                  |              |        |                       |             |
+|   16    |            |                  |              |        |                       |             |
+|   17    |            |                  |              |        |                       |             |
+|   18    |            |                  |              |        |                       |             |
+|   19    |            |                  |              |        |                       |             |
+|   20    |            |                  |              |        |                       |             |
+|   21    |            |                  |              |        |                       |             |
+|   22    |            |                  |              |        |                       |             |
