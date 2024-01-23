@@ -137,13 +137,21 @@
                 "file": "Projects/HDMap/SPMap/Init query with mask2former.md"
               }
             }
+          },
+          {
+            "id": "d52b8382027477f3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,7 +165,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "96a4821fd57dae3d",
+  "active": "d52b8382027477f3",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Projects/HDMap/SPMap/Init query with mask2former.md",

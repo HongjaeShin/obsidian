@@ -27,5 +27,9 @@
 		- segm_loss weight을 낮춰야할 것 같음
 	- v5: v2에 Custom ResNet
 	- v6: v4에 Csutom Re
-		| small segm loss weight | BEV encoder | assign |
-		| -------- |
+
+| version | small segm loss weight | BEV encoder |     assign     |
+|:-------:|:----------------------:|:-----------:|:--------------:|
+|    1    |           x            | SimpleConv  | same pts layer |
+|     2    | 1/5                       |             |                |
+				
