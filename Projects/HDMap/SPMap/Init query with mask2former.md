@@ -15,35 +15,37 @@
 #### 안급한거
 - [ ] one2many 2 이상 가능하게
 - [ ] with_cp
-- [ ] 기존에 사용하던 aux bev seg가 필요할까?
-	- 중요한 부분은 아닐듯 함
-- [ ] Decoder layer 수 변경해보기
+- [x] 기존에 사용하던 aux bev seg가 필요할까?
+	- 중요한 부분은 아닐 듯 함
+- [x] Decoder layer 수 변경해보기
 
 - Variation
 
-| version | num_layers | segm_loss_weight | BEV encoder | BEVseg | BEVresi | Assign | Performance |
-| :--: | :--: | :--: | :--: | :--: | :--: | :--: | ---- |
-| 1 | 9 | 1/5 | SimpleConv |  |  | same |  |
-| 2 | 9 | 1 | SimpleConv |  |  | same |  |
-| 3 | 9 | 1 | ResNet18 |  |  | same |  |
-| 4 | 9 | 1 | SimpleConv |  |  | pts, segm dependently |  |
-| 5 | 9 | 1 | CustomResNet |  |  | same |  |
-| 6 | 9 | 1 | CustomResNet |  |  | pts, segm dependently |  |
-| 7 | 9 | 1/2 | CustomResNet |  |  | same |  |
-| 8 | 9 | 1/2 | CustomResNet | x |  | same |  |
-| 9 | 9 | 1 | CustomResNet | x |  | same |  |
-| 10 | 6 | 1 | SimpleConv |  |  | same |  |
-| 11 | 6 | 1/2 | CustomResNet |  |  | same |  |
-| 12 | 9 | don't use loss_segm | CustomResNet |  |  | same |  |
-| 13 |  | only use loss_segm_mask |  |  |  | same |  |
-| 14 |  | only use loss_segm_dice |  |  |  |  |  |
-| 15 |  | only use loss_segm_cls |  |  |  |  |  |
-| 16 |  | don't use loss_segm_cls |  |  |  |  |  |
-| 17 |  | don't use loss_segm_mask |  |  |  |  |  |
-| 18 |  | don't use loss_segm_dice |  |  |  |  |  |
-| 19 |  | 1/2 |  |  |  | last pts layer |  |
-| 20 | 6 |  |  |  |  |  |  |
-| 21 | 3 |  |  |  |  | last pts layer, dependently |  |
-| 22 | 6 |  |  |  |  |  |  |
-| 23 |  |  |  |  | O |  |  |
-| 24 |  |  |  |  |  |  |  |
+| version | num_layers |     segm_loss_weight     | BEV encoder  | BEVseg | BEVresi | QueryMLP |            Assign            | Comment |
+|:-------:|:----------:|:------------------------:|:------------:|:------:|:-------:|:--------:|:----------------------------:| ----------- |
+|    1    |     9      |           1/5            |  SimpleConv  |        |         |          |             same             |             |
+|    2    |     9      |            1             |  SimpleConv  |        |         |          |             same             |             |
+|    3    |     9      |            1             |   ResNet18   |        |         |          |             same             |             |
+|    4    |     9      |            1             |  SimpleConv  |        |         |          |    pts, segm dependently     |             |
+|    5    |     9      |            1             | CustomResNet |        |         |          |             same             |             |
+|    6    |     9      |            1             | CustomResNet |        |         |          |    pts, segm dependently     |             |
+|    7    |     9      |           1/2            | CustomResNet |        |         |          |             same             |             |
+|    8    |     9      |           1/2            | CustomResNet |   x    |         |          |             same             |             |
+|    9    |     9      |            1             | CustomResNet |   x    |         |          |             same             |             |
+|   10    |     6      |            1             |  SimpleConv  |        |         |          |             same             |             |
+|   11    |     6      |           1/2            | CustomResNet |        |         |          |             same             |             |
+|   12    |     9      |   don't use loss_segm    | CustomResNet |        |         |          |             same             |             |
+|   13    |     9      | only use loss_segm_mask  |              |        |         |          |             same             |             |
+|   14    |     9      | only use loss_segm_dice  |              |        |         |          |                              |             |
+|   15    |     9      |  only use loss_segm_cls  |              |        |         |          |                              |             |
+|   16    |     9      | don't use loss_segm_cls  |              |        |         |          |                              |             |
+|   17    |     9      | don't use loss_segm_mask |              |        |         |          |                              |             |
+|   18    |     9      | don't use loss_segm_dice |              |        |         |          |                              |             |
+|   19    |     9      |           1/2            |              |        |         |          |        last pts layer        |             |
+|   20    |     6      |                          |              |        |         |          |                              |             |
+|   21    |     3      |                          |              |        |         |          | last pts layer, dependently  |             |
+|   22    |     6      |                          |              |        |         |          |                              |             |
+|   23    |     6      |                          |              |        |    O    |          |                              |             |
+|   24    |     6      |                          |              |        |    O    |          | first pts layer, dependently |             |
+|   25    |     6      |                          |              |        | O        |    O     | last pts layer, dependently                             |             |
+- sd
