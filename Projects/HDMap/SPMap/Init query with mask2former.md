@@ -20,16 +20,28 @@
 - [ ] Decoder layer 수 변경해보기
 
 - Variation
-	- v2: v1에서 segm loss weight을 mask2former만큼 올렸음. v1에서는 1/5해서 사용
-		- 중간에 끊긴 했는데 추세가 별로 안좋아보임
-	- v3: v2에 BEV encoder를 다시 resnet18로 사용
-	- v4: v2에 pts, segm 따로 assign
-		- segm_loss weight을 낮춰야할 것 같음
-	- v5: v2에 Custom ResNet
-	- v6: v4에 Csutom Re
 
-| version | small segm loss weight | BEV encoder |     assign     |
-|:-------:|:----------------------:|:-----------:|:--------------:|
-|    1    |           x            | SimpleConv  | same pts layer |
-|     2    | 1/5                       |             |                |
-				
+| version | small segm loss weight | BEV encoder |     Assign     | Performance    |
+|:-------:|:----------------------:|:-----------:|:--------------:| --- |
+|    1    |          1/5           | SimpleConv  | same pts layer |     |
+|    2    |           1            | SimpleConv  | same pts layer |     |
+|    3    |           1            |  ResNet18   | same pts layer |     |
+|    4    | 1                       | SimpleConv            | pts, segm assign dependently               |     |
+|    5    | 1                       | CustomResNet            | same pts layer               |     |
+|    6    | 1                       | CustomResNet            | pts, segm assign dependentlyy               |     |
+|    7    | 1/2                       | CustomResNet            | same pts layer               |     |
+|    8    | 1/2                       |             |                |     |
+|    9    |                        |             |                |     |
+|   10    |                        |             |                |     |
+|   11    |                        |             |                |     |
+|   12    |                        |             |                |     |
+|   13    |                        |             |                |     |
+|   14    |                        |             |                |     |
+|   15    |                        |             |                |     |
+|   16    |                        |             |                |     |
+|   17    |                        |             |                |     |
+|   18    |                        |             |                |     |
+|   19    |                        |             |                |     |
+|   20    |                        |             |                |     |
+|   21    |                        |             |                |     |
+|   22    |                        |             |                |     |
