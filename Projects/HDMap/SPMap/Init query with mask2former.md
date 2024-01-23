@@ -19,10 +19,13 @@
 	- 중요한 부분은 아닐듯 함
 - [ ] Decoder layer 수 변경해보기
 
-
-- v2: v1에서 segm loss weight을 mask2former만큼 올렸음. v1에서는 1/5해서 사용
-	- [ ] overfit에서는 v1의 pts loss가 더 작게 나왔는데 이를 1/7set에서 확인해볼 것
-	- 중간에 끊긴 했는데 추세가 별로 안좋아보임
-- v3: v2에 BEV encoder를 다시 resnet18로 사용
-- v4: v2에 pts, segm 따로 assign
-	- segm_loss weight을 낮춰야할 것 같음
+- Variation
+	- v2: v1에서 segm loss weight을 mask2former만큼 올렸음. v1에서는 1/5해서 사용
+		- 중간에 끊긴 했는데 추세가 별로 안좋아보임
+	- v3: v2에 BEV encoder를 다시 resnet18로 사용
+	- v4: v2에 pts, segm 따로 assign
+		- segm_loss weight을 낮춰야할 것 같음
+	- v5: v2에 Custom ResNet
+	- v6: v4에 Csutom Re
+		| small segm loss weight | BEV encoder | assign |
+		| -------- |
