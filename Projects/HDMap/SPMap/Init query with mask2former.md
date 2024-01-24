@@ -20,8 +20,8 @@
 	- 중요한 부분은 아닐 듯 함
 - [x] Decoder layer 수 변경해보기
 
-- Variation
 
+#### Variation v1
 | version | num_layers |     segm_loss_weight     | BEV encoder  | BEVseg | BEVresi | QueryMLP |            Assign            | Comment |
 |:-------:|:----------:|:------------------------:|:------------:|:------:|:-------:|:--------:|:----------------------------:| ----------- |
 |    1    |     9      |           1/5            |  SimpleConv  |        |         |          |             same             |             |
@@ -49,4 +49,6 @@
 |   23    |     6      |                          |              |        |    O    |          |                              |             |
 |   24    |     6      |                          |              |        |    O    |          | first pts layer, dependently |             |
 |   25    |     6      |                          |              |        | O        |    O     | last pts layer, dependently                             |             |
-- sd
+
+
+#### Variation v2
