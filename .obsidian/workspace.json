@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "01e78aa05d5caf2f",
+        "id": "b7c8fb7a5231f868",
         "type": "tabs",
         "children": [
           {
-            "id": "96a4821fd57dae3d",
+            "id": "707f67bc2d5301a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/HDMap/SPMap/Init query with mask2former.md",
+                "file": "Projects/HDMap/SPMap/진행방향_renewed_0205.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,13 +73,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b7bdedbe8b581863",
@@ -95,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/HDMap/SPMap/Init query with mask2former.md",
+                "file": "Projects/HDMap/SPMap/진행방향_renewed_0205.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/HDMap/SPMap/Init query with mask2former.md",
+                "file": "Projects/HDMap/SPMap/진행방향_renewed_0205.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/HDMap/SPMap/Init query with mask2former.md"
+                "file": "Projects/HDMap/SPMap/진행방향_renewed_0205.md"
               }
             }
           },
@@ -166,10 +164,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "96a4821fd57dae3d",
+  "active": "707f67bc2d5301a2",
   "lastOpenFiles": [
+    "Projects/HDMap/SPMap/Finished/진행방향_before.md",
+    "Projects/HDMap/SPMap/진행방향_renewed_0205.md",
+    "Projects/HDMap/SPMap/Finished/Backbone pth.md",
+    "Projects/HDMap/SPMap/Finished",
+    "Projects/HDMap/SPMap/Finished/유사도.md",
+    "Projects/HDMap/SPMap/Finished/Plot results.md",
+    "Projects/HDMap/SPMap/Finished/Init query with mask2former.md",
+    "Projects/HDMap/SPMap/Finished/idea_1227.md",
+    "Projects/HDMap/SPMap/Finished/idea_1207.md",
+    "Projects/HDMap/SPMap/Finished/BEV segmentation evaluate.md",
     "conflict-files-obsidian-git.md",
-    "Projects/HDMap/SPMap/Init query with mask2former.md",
     "Projects/HDMap/CodeReview/Mask2Former.md",
     "Projects/HDMap/CodeReview/maptrv2_nusc_r50_24ep_v12_phase.md",
     "Projects/HDMap/CodeReview/Mask2Former/model.md",
@@ -190,10 +197,8 @@
     "Projects/HDMap/PapersSimpleReview/TODO/HDMapNet.md",
     "Projects/HDMap/PapersSimpleReview/Done/GeMap.md",
     "Projects/HDMap/PapersSimpleReview/TODO/MapTR.md",
-    "Projects/HDMap/PapersSimpleReview/TODO/InstaGraM.md",
     "Projects/HDMap/PapersSimpleReview/TODO",
     "Projects/HDMap/PapersSimpleReview/Done",
-    "Projects/HDMap/Meeting/20240102.md",
     "Projects/HDMap/CodeReview"
   ]
 }
