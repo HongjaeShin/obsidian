@@ -8,7 +8,7 @@ Online hd map task는 정확하게 예측하는 것도 중요하지만 잘못 �
 		가벼우면서도 높은 성능을 보인 query based instance segmentation model인 Mask2Former를 Instance segmentation decoder로써 사용 
 
 3. Key point sampling
-		예측된 instance mask를 이용하여 Instance의 reference point를 예측하고 기존의 instance query를
+		예측된 instance mask를 이용하여 Instance의 reference point를 예측하고 기존의 instance query
 
 
 3. GT denoising for 2 stage model
