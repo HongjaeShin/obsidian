@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b7c8fb7a5231f868",
+        "id": "61f93ca99820e825",
         "type": "tabs",
         "children": [
           {
-            "id": "707f67bc2d5301a2",
+            "id": "4fff56bd2b8c1505",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/HDMap/SPMap/진행방향_renewed_0205.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -73,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/HDMap/SPMap/진행방향_renewed_0205.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/HDMap/SPMap/진행방향_renewed_0205.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projects/HDMap/SPMap/진행방향_renewed_0205.md"
-              }
+              "state": {}
             }
           },
           {
@@ -165,10 +156,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "707f67bc2d5301a2",
+  "active": "4fff56bd2b8c1505",
   "lastOpenFiles": [
-    "Projects/HDMap/SPMap/Finished/진행방향_before.md",
+    "Projects/HDMap/PapersSimpleReview/Done/PivotNet.md",
+    "Projects/HDMap/PapersSimpleReview/Done/GeMap.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/MapEX.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/BeMapNet.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/InsightMapper.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/HDMapNet.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/InstaGraM.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/MapTR.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/MapTRv2.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/SOLOFusion.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/StreamMapNet.md",
+    "Projects/HDMap/PapersSimpleReview/TODO/VectorMapNet.md",
     "Projects/HDMap/SPMap/진행방향_renewed_0205.md",
+    "Projects/HDMap/SPMap/Finished/진행방향_before.md",
     "Projects/HDMap/SPMap/Finished/Backbone pth.md",
     "Projects/HDMap/SPMap/Finished",
     "Projects/HDMap/SPMap/Finished/유사도.md",
@@ -185,19 +188,7 @@
     "Spaces",
     "Projects/HDMap/CodeReview/Mask2Former",
     "Projects/HDMap/Meeting/20240111.md",
-    "Areas/PaperReview/Image segmentation/Mask2Former.md",
-    "Areas/PaperReview/3D object detection/DN-DETR.md",
     "Areas/PaperReview/Image segmentation",
-    "Projects/HDMap/PapersSimpleReview/TODO/VectorMapNet.md",
-    "Projects/HDMap/PapersSimpleReview/TODO/StreamMapNet.md",
-    "Projects/HDMap/PapersSimpleReview/TODO/SOLOFusion.md",
-    "Projects/HDMap/PapersSimpleReview/Done/PivotNet.md",
-    "Projects/HDMap/PapersSimpleReview/TODO/MapTRv2.md",
-    "Projects/HDMap/PapersSimpleReview/TODO/BeMapNet.md",
-    "Projects/HDMap/PapersSimpleReview/TODO/InsightMapper.md",
-    "Projects/HDMap/PapersSimpleReview/TODO/HDMapNet.md",
-    "Projects/HDMap/PapersSimpleReview/Done/GeMap.md",
-    "Projects/HDMap/PapersSimpleReview/TODO/MapTR.md",
     "Projects/HDMap/PapersSimpleReview/TODO",
     "Projects/HDMap/PapersSimpleReview/Done",
     "Projects/HDMap/CodeReview"
