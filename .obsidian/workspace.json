@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/HDMap/SPMap/진행방향_renewed_0205.md",
+                "file": "Projects/HDMap/PapersSimpleReview/Done/MapEX.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/HDMap/SPMap/진행방향_renewed_0205.md",
+                "file": "Projects/HDMap/PapersSimpleReview/Done/MapEX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/HDMap/SPMap/진행방향_renewed_0205.md",
+                "file": "Projects/HDMap/PapersSimpleReview/Done/MapEX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/HDMap/SPMap/진행방향_renewed_0205.md"
+                "file": "Projects/HDMap/PapersSimpleReview/Done/MapEX.md"
               }
             }
           },
@@ -168,6 +167,8 @@
   },
   "active": "4fff56bd2b8c1505",
   "lastOpenFiles": [
+    "Projects/HDMap/SPMap/진행방향_renewed_0205.md",
+    "Projects/HDMap/PapersSimpleReview/Done/MapEX.md",
     "Projects/HDMap/PapersSimpleReview/Done/PivotNet.md",
     "Projects/HDMap/PapersSimpleReview/Done/GeMap.md",
     "Projects/HDMap/PapersSimpleReview/TODO/MapEX.md",
@@ -180,7 +181,6 @@
     "Projects/HDMap/PapersSimpleReview/TODO/SOLOFusion.md",
     "Projects/HDMap/PapersSimpleReview/TODO/StreamMapNet.md",
     "Projects/HDMap/PapersSimpleReview/TODO/VectorMapNet.md",
-    "Projects/HDMap/SPMap/진행방향_renewed_0205.md",
     "Projects/HDMap/SPMap/Finished/진행방향_before.md",
     "Projects/HDMap/SPMap/Finished/Backbone pth.md",
     "Projects/HDMap/SPMap/Finished",
@@ -197,7 +197,6 @@
     "Spaces/Home",
     "Spaces",
     "Projects/HDMap/CodeReview/Mask2Former",
-    "Projects/HDMap/Meeting/20240111.md",
     "Areas/PaperReview/Image segmentation",
     "Projects/HDMap/PapersSimpleReview/TODO",
     "Projects/HDMap/PapersSimpleReview/Done",
