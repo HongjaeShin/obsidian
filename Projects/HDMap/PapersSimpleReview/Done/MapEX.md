@@ -9,5 +9,7 @@
 		- Instance shift noise나 Point Gaussian noise를 통해 잘못 labeling되어 있는 경우를 표현. 대충 레이블링이 되어 있어도 모델이 작동한다는 것을 보여 labeling cost를 줄일 수 있다고 표현
 	3. 전체적인 context는 비슷한데 도로가 좀 더 휘어 있는 등의 noise를 추가
 		- Ped crossing과 divider의 절반을 제거하고 warping distortion
-- MapEX: MapTR의 구조를 base로 하여 MapModEX를 통해 얻은 이전의 지도를 encoding하여 기본 쿼리와 함께 instance query로 사용
+- MapEX: MapTRv2의 구조를 base로 하여 GT denoising처럼 MapModEX를 통해 얻은 이전의 지도를 encoding하여 쿼리로 사용(decoder에 들어가는 최종 쿼리로 사용하는듯)
+	- EX query encoding: zero padding된 쿼리에 x, y, one hot encoding된 cls해서 5개 값만 넣어 쿼리로 사용
+	- Denoising처럼 만들어진 쿼리는 따로 assign하지 않고 만들 때 사용된 gt를 그대로 사용
 
